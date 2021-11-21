@@ -20,7 +20,7 @@
   z-index: -1;
   background: url("../assets/img11.jpg") no-repeat center center fixed;
   background-size: cover;
-  filter: brightness(40%);
+  filter: brightness(30%);
 }
 .main-logo {
   float: left;
