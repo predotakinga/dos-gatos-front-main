@@ -23,11 +23,6 @@
   flex-direction: column;
 }
 
-.width-button {
-  display: block;
-  width: 20%;
-}
-
 h1 {
   color: rgba(255, 255, 255, 1);
   font-size: 90px;
@@ -47,18 +42,18 @@ h2 {
 @media screen and (max-width: 960px) {
   .menu-container {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    height: 150vh;
+    height: 100vh;
   }
 
   .text-items {
     width: 85%;
     height: 85%;
-    align-items: center;
-    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
   }
 
   h1 {
@@ -70,9 +65,5 @@ h2 {
     text-align: center;
     margin-left: 20%;
     margin-right: 20%;
-  }
-
-  .width-button {
-    align-items: center;
   }
 }
