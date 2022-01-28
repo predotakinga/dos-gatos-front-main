@@ -4,7 +4,7 @@ import { Button } from "../Button";
 import "./Menu.css";
 
 const openMenu = () => {
-  window.open(URL="https://drive.google.com/file/d/199jKc6J85fMo70cn3H3726kbGdf4plQU/view?usp=sharing");
+  window.open(URL="https://drive.google.com/file/d/1R0FWNIvjzjudNgiMBZJSFBvx9YsAGQ70/view?usp=sharing");
 }
 
 const openOrders = () => {
